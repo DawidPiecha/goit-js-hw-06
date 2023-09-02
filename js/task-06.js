@@ -1,5 +1,5 @@
 const input = document.querySelector("#validation-input");
-const minimumInputLength = 6;
+const minimumInputLength = input.getAttribute("data-length");
 
 input.addEventListener("blur", () => {
   if (input.value.length >= minimumInputLength) {

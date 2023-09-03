@@ -15,7 +15,19 @@ const newList = ingredients.forEach((ingredient) => {
   ingredientsList.append(listItem);
 });
 
-// ALTERNATYWNIE:
+// ALTERNATYWNIE 1 :
+
+// const ingredientsList = document.querySelector("#ingredients");
+
+// const ingredientsListElements = ingredients.map((ingredient) => {
+//   const listItem = document.createElement("li");
+//   listItem.innerHTML = ingredient;
+//   listItem.classList.add("item");
+//   return listItem;
+// });
+// ingredientsList.append(...ingredientsListElements);
+
+// ALTERNATYWNIE 2:
 
 // const ingredientsList = document.querySelector("#ingredients");
 // const array = [];
